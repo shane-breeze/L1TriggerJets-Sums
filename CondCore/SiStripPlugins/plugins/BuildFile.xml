@@ -1,0 +1,15 @@
+<flags CXX_FLAGS="-Wno-unused-variable"/>
+
+<library   file="SiStripObjects_toXML.cc" name="SiStripObjects_toXML">
+  <use   name="CondCore/Utilities"/>
+  <use   name="CondCore/CondDB"/>
+  <use   name="CondFormats/Common"/>
+  <use   name="boost_python"/>
+</library>
+
+<library   file="SiStrip*_PayloadInspector.cc" name="SiStrip_PayloadInspector">
+  <use   name="CondCore/Utilities"/>
+  <use   name="CondCore/CondDB"/>
+  <use   name="CondFormats/Common"/>
+  <use   name="boost_python"/>
+</library>

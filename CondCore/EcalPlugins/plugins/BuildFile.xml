@@ -1,0 +1,17 @@
+<library   file="EcalPyUtils.cc" name="EcalPyUtils">
+  <use   name="CondCore/Utilities"/>
+  <use   name="CondFormats/EcalObjects"/>
+  <use   name="CondTools/Ecal"/>
+  <use   name="DataFormats/EcalDetId"/>
+  <use   name="boost"/>
+  <use   name="boost_python"/>
+  <flags   EDM_PLUGIN="1"/>
+</library>
+
+<flags CXXFLAGS="-Wno-sign-compare -Wno-unused-variable"/>
+<library   file="EcalCondObjectContainer_EcalTPGCrystalStatusCode_toXML.cc" name="EcalCondObjectContainer_EcalTPGCrystalStatusCode_toXML">
+  <use   name="CondCore/Utilities"/>
+  <use   name="CondCore/CondDB"/>
+  <use   name="CondFormats/Common"/>
+  <use   name="boost_python"/>
+</library>
